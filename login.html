@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+
+<?php include './function.php'; ?>
+
+<html>
+   
+   <head>
+      <title>Log-in</title>      
+   </head>
+   
+   <body>
+	
+	<div id="Log-in">
+
+		<form method="POST" action="login.php">
+			
+			<br> <input type="text" name="account" placeholder="UserName or Email">
+			<br> <input type="password" name="pass" placeholder="Password">
+			<br>
+			
+			<br> <input id="button" type="submit" name="submit" value="Log-in">
+		</form>
+		 
+		<br>
+		<br> <h3> Here will be some text warning.<br> Example: Sorry, password doesn't match.</h3>
+		
+		<br>
+		
+		<form> <!-- method="get" action="link to signup"-->
+			<input id="button" type="submit" name="linksignup" value="Sign Up">
+		</form>
+	</div>
+	
+   </body>
+
+<!-- Thanks to following sites.
+https://www.tutorialspoint.com/php/php_mysql_login.htm
+https://alias.io/2010/01/store-passwords-safely-with-php-and-mysql/
+-->
+
+</html>

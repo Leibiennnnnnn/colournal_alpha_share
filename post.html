@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="Write_journal.css">
+<title>Write Your Journal</title>
+</head>
+
+<body>
+
+<h1>Write a Colournal!</h1>
+
+<form id="form1" name="form1" method="post" action="post.php">
+
+<input type="text" name="inputtitle" class="text1" placeholder="Title" >
+
+<div class="container">
+	<tr>
+	<td> <input type="radio" name="inputmood" value="happy"> HAPPY </td>
+	<td> <input type="radio" name="inputmood" value="sad"> SAD </td>
+	<td> <input type="radio" name="inputmood" value="love"> LOVE </td>
+	<td> <input type="radio" name="inputmood" value="angry"> ANGRY </td>
+	<td> <input type="radio" name="inputmood" value="disgust"> DISGUST </td>
+	<td> <input type="radio" name="inputmood" value="scared"> SCARED </td>
+	</tr>
+</div> 
+ 
+<div class="container">
+		<div class="row">
+			<div class="col-xs-5 col-sm-7 col-md-9">
+				<tr>
+					<td> <input type="text" name="location" placeholder="Location"></td>
+					<td> current time </td>
+				</tr>
+			</div>
+		</div>
+</div>
+
+<main>
+<div class="container">
+	<div class="row">
+		<div class= "col-md-3">
+		</div>
+			<div class="col-xs-2 col-sm-4 col-md-6">
+				
+				<div class="glyphicon-wrapper">
+					
+						<a href="#"><div class="glyphicon glyphicon-font"></div></a>
+						<a href="#"><div class="glyphicon glyphicon-bold"></div></a>
+						<a href="#"><div class="glyphicon glyphicon-italic"></div></a>
+						<a href="#"><div class="glyphicon glyphicon-text-size"></div></a>
+						<a href="#"><div class="glyphicon glyphicon-text-color"></div></a>
+						<a href="#"><div class="glyphicon glyphicon-align-left"></div></a>
+						<a href="#"><div class="glyphicon glyphicon-align-justify"></div></a>
+						<a href="#"><div class="glyphicon glyphicon-align-right"></div></a>
+						<a href="#"><div class="glyphicon glyphicon-list"></div></a>
+						<a href="#"><div class="glyphicon glyphicon-picture"></div></a>
+				</div>
+				<textarea name="inputcontent" placeholder="Write here..."></textarea>
+	 		</div>
+	</div>
+	
+</div>
+</main>
+
+<div class="container">
+	<tr>
+	<td> <input type="radio" name="inputprivacy" value="private"> Keep it! </td>
+	<td> <input type="radio" name="inputprivacy" value="public"> Share it! </td>
+	<td> </td>
+	<td> <input id="button" type="submit" name="submit" value="Post"> </td>
+	</tr>
+</div> 
+
+</form>	
+	
+</body>
+
+<footer>
+	
+</footer>
+</html>
